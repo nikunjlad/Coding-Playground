@@ -10,6 +10,8 @@ Output: 1
 Example 2:
 Input: [4,1,2,1,2]
 Output: 4
+
+Needs revision!
 """
 
 from typing import List
