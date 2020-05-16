@@ -17,6 +17,10 @@ from typing import List
 
 class Solution:
     def singleNonDuplicate(self, nums: List[int]) -> int:
+
+        # first find all unique elements using set. We sum this unique list of elements and multiply it by 2
+        # this first sum calculated assuming if all elements in the array occured twice including the single element
+        # we subtract from this first sum the sum of the actual list being passed to finally get the single element
         return sum(set(nums)) * 2 - sum(nums)
 
 
